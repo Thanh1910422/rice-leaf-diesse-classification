@@ -32,4 +32,4 @@ TEST_SPLIT = 0.15
 # Tên các file đầu ra
 MODEL_PATH = MODEL_DIR / "rice_leaf_model.keras"
 BEST_MODEL_PATH = MODEL_DIR / "best_rice_leaf_model.keras"
-CLASS_NAMES_PATH = MODEL_DIR / "class_names.json"
+CLASS_NAMES_PATH = MODEL_DIR / "class_names.json"
