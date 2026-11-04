@@ -1,114 +1,140 @@
 
-import argparse
+import sys
 import json
-from pathlib import Path
-
 import numpy as np
+import tensorflow as tf
+
+from pathlib import Path
 from PIL import Image
 from tensorflow import keras
+from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 
-from config import (
-    IMAGE_SIZE,
-    BEST_MODEL_PATH,
+from src.config import (
+    FINAL_MODEL_PATH,
     CLASS_NAMES_PATH,
+    IMAGE_SIZE,
 )
 
 
-def load_image(image_path):
-    """Đọc và chuẩn hóa ảnh đầu vào."""
+def load_class_names():
+    """Doc ten 6 lop tu file JSON."""
+
+    with open(CLASS_NAMES_PATH, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def preprocess_image(image_path):
+    """Doc va tien xu ly anh dau vao."""
 
     image_path = Path(image_path)
 
-    if not image_path.is_file():
+    if not image_path.exists():
         raise FileNotFoundError(
-            f"Không tìm thấy ảnh: {image_path}"
+            f"Khong tim thay anh: {image_path}"
         )
 
-    with Image.open(image_path) as img:
-        img = img.convert("RGB")
-        img = img.resize(
-            (IMAGE_SIZE[1], IMAGE_SIZE[0]),
-            Image.Resampling.BILINEAR,
-        )
-        image = np.asarray(img, dtype=np.float32)
+    # Doc anh va chuyen sang RGB
+    image = Image.open(image_path).convert("RGB")
 
-    # Thêm chiều batch: (1, height, width, channels)
-    return np.expand_dims(image, axis=0)
+    # Resize anh
+    image = image.resize(
+        (IMAGE_SIZE[1], IMAGE_SIZE[0])
+    )
+
+    # Chuyen thanh mang numpy
+    image = np.asarray(image, dtype=np.float32)
+
+    # Them chieu batch
+    image = np.expand_dims(image, axis=0)
+
+    # Tien xu ly dung MobileNetV2
+    image = preprocess_input(image)
+
+    return image
 
 
-def predict_image(image_path, top_k=3):
-    """Dự đoán lớp của ảnh lá lúa."""
+def predict_image(image_path):
+    """Du doan benh la lua tu mot anh moi."""
 
-    if not BEST_MODEL_PATH.exists():
+    print("=" * 60)
+    print("DU DOAN BENH LA LUA BANG CNN MOBILENETV2")
+    print("=" * 60)
+
+    # Kiem tra mo hinh
+    if not FINAL_MODEL_PATH.exists():
         raise FileNotFoundError(
-            "Chưa có mô hình. Hãy chạy python src/train.py trước."
+            f"Khong tim thay mo hinh: {FINAL_MODEL_PATH}"
         )
 
     if not CLASS_NAMES_PATH.exists():
         raise FileNotFoundError(
-            "Không tìm thấy class_names.json."
+            f"Khong tim thay danh sach lop: {CLASS_NAMES_PATH}"
         )
 
-    with open(CLASS_NAMES_PATH, "r", encoding="utf-8") as f:
-        class_names = json.load(f)
+    # Nap ten lop va mo hinh
+    class_names = load_class_names()
+    model = keras.models.load_model(FINAL_MODEL_PATH)
 
-    model = keras.models.load_model(BEST_MODEL_PATH)
-    image = load_image(image_path)
+    print("\nDa nap mo hinh thanh cong!")
+    print("Anh dau vao:", image_path)
 
+    # Tien xu ly anh
+    image = preprocess_image(image_path)
+
+    # Du doan
     probabilities = model.predict(image, verbose=0)[0]
 
-    if len(probabilities) != len(class_names):
-        raise ValueError(
-            "Số đầu ra của mô hình không khớp số lớp."
-        )
+    # Sap xep xac suat giam dan
+    sorted_indices = np.argsort(probabilities)[::-1]
 
-    top_k = max(1, min(top_k, len(class_names)))
-    top_indices = np.argsort(probabilities)[::-1][:top_k]
+    best_index = int(sorted_indices[0])
+    predicted_class = class_names[best_index]
+    confidence = float(probabilities[best_index])
 
-    print("\n===== KẾT QUẢ DỰ ĐOÁN =====")
-    print(f"Ảnh: {image_path}")
+    # Hien thi ket qua
+    print("\n" + "=" * 60)
+    print("KET QUA DU DOAN")
+    print("=" * 60)
 
-    for rank, idx in enumerate(top_indices, start=1):
+    print("Lop du doan:", predicted_class)
+    print(f"Do tin cay: {confidence * 100:.2f}%")
+
+    print("\nTOP 3 KET QUA:")
+
+    for rank, index in enumerate(sorted_indices[:3], start=1):
+        class_name = class_names[int(index)]
+        probability = float(probabilities[index])
+
         print(
-            f"{rank}. {class_names[idx]}: "
-            f"{probabilities[idx] * 100:.2f}%"
+            f"{rank}. {class_name}: "
+            f"{probability * 100:.2f}%"
         )
 
-    predicted_index = int(top_indices[0])
-    confidence = float(probabilities[predicted_index])
+    print("\nXAC SUAT CUA TUNG LOP:")
 
-    print("\nKết luận của mô hình:")
-    print(f"Lớp dự đoán: {class_names[predicted_index]}")
-    print(f"Độ tin cậy: {confidence * 100:.2f}%")
-
-    if confidence < 0.60:
+    for index, class_name in enumerate(class_names):
         print(
-            "Cảnh báo: độ tin cậy thấp. "
-            "Nên kiểm tra ảnh và đối chiếu thêm."
+            f"{class_name}: "
+            f"{probabilities[index] * 100:.2f}%"
         )
 
-    return class_names[predicted_index], confidence
+    print("\nHOAN THANH DU DOAN!")
 
-
-def main():
-    parser = argparse.ArgumentParser(
-        description="Phân loại bệnh trên lá lúa."
-    )
-    parser.add_argument(
-        "--image",
-        required=True,
-        help="Đường dẫn đến ảnh lá lúa cần dự đoán.",
-    )
-    parser.add_argument(
-        "--top-k",
-        type=int,
-        default=3,
-        help="Số lớp có xác suất cao nhất cần hiển thị.",
-    )
-
-    args = parser.parse_args()
-    predict_image(args.image, args.top_k)
+    return predicted_class, confidence
 
 
 if __name__ == "__main__":
-    main()
+
+    if len(sys.argv) >= 2:
+        image_path = sys.argv[1]
+    else:
+        image_path = input(
+            "Nhap duong dan anh la lua can du doan: "
+        ).strip().strip('"')
+
+    try:
+        predict_image(image_path)
+
+    except Exception as error:
+        print("\nLOI KHI DU DOAN:")
+        print(error)
