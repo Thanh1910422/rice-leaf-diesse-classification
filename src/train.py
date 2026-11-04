@@ -2,7 +2,6 @@
 import json
 import tensorflow as tf
 
-from pathlib import Path
 from tensorflow import keras
 
 from src.config import (
@@ -12,16 +11,21 @@ from src.config import (
     FINAL_MODEL_PATH,
     EPOCHS_STAGE1,
     EPOCHS_STAGE2,
-    LEARNING_RATE_STAGE1,
-    LEARNING_RATE_STAGE2,
 )
 
 from src.data_loader import load_data
-from src.model import build_model, unfreeze_model
+
+from src.model import (
+    build_model,
+    compile_stage1,
+    unfreeze_model,
+)
 
 
 def create_callbacks(checkpoint_path, log_path):
-    """Tạo callbacks để lưu mô hình và theo dõi huấn luyện."""
+    """
+    Tao callbacks de luu mo hinh va theo doi qua trinh huan luyen.
+    """
 
     return [
         keras.callbacks.ModelCheckpoint(
@@ -34,7 +38,7 @@ def create_callbacks(checkpoint_path, log_path):
 
         keras.callbacks.EarlyStopping(
             monitor="val_loss",
-            patience=3,
+            patience=4,
             restore_best_weights=True,
             mode="min",
             verbose=1
@@ -56,7 +60,9 @@ def create_callbacks(checkpoint_path, log_path):
 
 
 def save_history(history, file_path):
-    """Lưu lịch sử huấn luyện thành JSON."""
+    """
+    Luu lich su huan luyen thanh JSON.
+    """
 
     data = {
         key: [float(value) for value in values]
@@ -64,15 +70,26 @@ def save_history(history, file_path):
     }
 
     with open(file_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
+        json.dump(
+            data,
+            f,
+            indent=4,
+            ensure_ascii=False
+        )
 
 
 def train_stage1(model, train_data, val_data):
-    """Giai đoạn 1: Feature Extraction."""
+    """
+    Giai doan 1: Feature Extraction.
+    Dong bang MobileNetV2 va huan luyen lop phan loai.
+    """
 
     print("\n" + "=" * 60)
     print("GIAI DOAN 1: FEATURE EXTRACTION")
     print("=" * 60)
+
+    # Compile voi learning rate giai doan 1
+    model = compile_stage1(model)
 
     callbacks = create_callbacks(
         BEST_MODEL_PATH,
@@ -98,19 +115,26 @@ def train_stage1(model, train_data, val_data):
 
 
 def train_stage2(model, train_data, val_data):
-    """Giai đoạn 2: Fine-tuning."""
+    """
+    Giai doan 2: Fine-tuning.
+    Mo bang mot so lop cuoi cua MobileNetV2.
+    """
 
     print("\n" + "=" * 60)
     print("GIAI DOAN 2: FINE-TUNING")
     print("=" * 60)
 
+    # Mo bang cac lop cuoi va compile lai
     model = unfreeze_model(model)
 
-    print("\nSo tham so co the huan luyen:",
-          sum(
-              tf.size(variable).numpy()
-              for variable in model.trainable_variables
-          )
+    trainable_params = sum(
+        int(tf.size(variable).numpy())
+        for variable in model.trainable_variables
+    )
+
+    print(
+        "\nSo tham so co the huan luyen:",
+        trainable_params
     )
 
     callbacks = create_callbacks(
@@ -138,50 +162,105 @@ def train_stage2(model, train_data, val_data):
 
 def main():
 
-    MODEL_DIR.mkdir(parents=True, exist_ok=True)
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    # Tao thu muc neu chua ton tai
+    MODEL_DIR.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    OUTPUT_DIR.mkdir(
+        parents=True,
+        exist_ok=True
+    )
 
     print("=" * 60)
-    print("HUAN LUYEN MO HINH CNN PHAN LOAI BENH LA LUA")
+    print("HUAN LUYEN MOBILENETV2 PHAN LOAI BENH LA LUA")
     print("=" * 60)
 
-    # 1. Đọc dữ liệu
+    # --------------------------------------------------
+    # 1. DOC DU LIEU
+    # --------------------------------------------------
+
+    print("\n[1] DANG DOC DU LIEU...")
+
     train_data, val_data, test_data, class_names = load_data()
 
-    print("\nSo lop:", len(class_names))
+    num_classes = len(class_names)
 
-    # 2. Khởi tạo mô hình
-    model = build_model(num_classes=len(class_names))
+    print("\nSo lop:", num_classes)
+
+    print("\nDanh sach cac lop:")
+
+    for index, class_name in enumerate(class_names):
+        print(f"{index}: {class_name}")
+
+    # --------------------------------------------------
+    # 2. KHOI TAO MO HINH
+    # --------------------------------------------------
+
+    print("\n[2] DANG KHOI TAO MO HINH...")
+
+    model, base_model = build_model(
+        num_classes=num_classes
+    )
 
     print("\nKhoi tao mo hinh thanh cong!")
 
-    # 3. Giai đoạn 1
+    print("\nTong so tham so:", model.count_params())
+
+    # --------------------------------------------------
+    # 3. GIAI DOAN 1
+    # --------------------------------------------------
+
+    print("\n[3] BAT DAU GIAI DOAN 1...")
+
     train_stage1(
         model,
         train_data,
         val_data
     )
 
-    # 4. Nạp lại mô hình tốt nhất của giai đoạn 1
-    print("\nNap lai mo hinh tot nhat giai doan 1...")
+    # --------------------------------------------------
+    # 4. NAP MO HINH TOT NHAT GIAI DOAN 1
+    # --------------------------------------------------
 
-    model = keras.models.load_model(BEST_MODEL_PATH)
+    print("\n[4] NAP MO HINH TOT NHAT GIAI DOAN 1...")
 
-    # 5. Giai đoạn 2
+    model = keras.models.load_model(
+        BEST_MODEL_PATH
+    )
+
+    print("\nNap mo hinh giai doan 1 thanh cong!")
+
+    # --------------------------------------------------
+    # 5. GIAI DOAN 2
+    # --------------------------------------------------
+
+    print("\n[5] BAT DAU GIAI DOAN 2...")
+
     train_stage2(
         model,
         train_data,
         val_data
     )
 
+    # --------------------------------------------------
+    # 6. KET THUC
+    # --------------------------------------------------
+
     print("\n" + "=" * 60)
     print("HOAN THANH HUAN LUYEN!")
     print("=" * 60)
 
-    print("Mo hinh giai doan 1:", BEST_MODEL_PATH)
-    print("Mo hinh giai doan 2:", FINAL_MODEL_PATH)
+    print("\nMo hinh tot nhat giai doan 1:")
+    print(BEST_MODEL_PATH)
 
-    print("\nLuu y: Tap Testing chua duoc su dung trong huan luyen.")
+    print("\nMo hinh tot nhat giai doan 2:")
+    print(FINAL_MODEL_PATH)
+
+    print("\nTap Test chua duoc su dung trong huan luyen.")
+
+    print("\nHay su dung evaluate.py de danh gia tren tap Test.")
 
 
 if __name__ == "__main__":

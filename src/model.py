@@ -12,61 +12,54 @@ from src.config import (
 )
 
 
-def build_model(num_classes=6):
+def build_model(num_classes, image_size=IMAGE_SIZE):
     """
-    Xay dung mo hinh CNN MobileNetV2
-    Giai doan dau: dong bang backbone.
+    Xay dung mo hinh MobileNetV2 Transfer Learning.
     """
 
     inputs = keras.Input(
-        shape=(*IMAGE_SIZE, 3),
+        shape=(image_size, image_size, 3),
         name="input_image"
     )
 
     # 1. Data augmentation
-    augmentation = keras.Sequential(
-        [
-            layers.RandomFlip("horizontal"),
-            layers.RandomRotation(0.08),
-            layers.RandomZoom(0.10),
-        ],
-        name="data_augmentation"
-    )
+    x = layers.RandomFlip("horizontal")(inputs)
+    x = layers.RandomRotation(0.08)(x)
+    x = layers.RandomZoom(0.10)(x)
+    x = layers.RandomContrast(0.10)(x)
 
-    x = augmentation(inputs)
+    # 2. MobileNetV2 preprocessing
+    x = keras.applications.mobilenet_v2.preprocess_input(x)
 
-    # 2. MobileNetV2 backbone
+    # 3. Pretrained MobileNetV2
     base_model = keras.applications.MobileNetV2(
-        input_shape=(*IMAGE_SIZE, 3),
+        input_shape=(image_size, image_size, 3),
         include_top=False,
         weights="imagenet"
     )
 
-    # Dong bang backbone trong giai doan 1
+    # Dong bang backbone o giai doan 1
     base_model.trainable = False
 
     x = base_model(x, training=False)
 
-    # 3. Classification head
-    x = layers.GlobalAveragePooling2D(
-        name="global_average_pooling"
-    )(x)
+    # 4. Classification head
+    x = layers.GlobalAveragePooling2D()(x)
+
+    x = layers.BatchNormalization()(x)
+    x = layers.Dropout(0.35)(x)
 
     x = layers.Dense(
-        128,
-        activation="relu",
-        name="dense_features"
+        256,
+        activation="relu"
     )(x)
 
-    x = layers.Dropout(
-        0.3,
-        name="dropout"
-    )(x)
+    x = layers.Dropout(0.30)(x)
 
     outputs = layers.Dense(
         num_classes,
         activation="softmax",
-        name="classification"
+        name="predictions"
     )(x)
 
     model = keras.Model(
@@ -75,7 +68,15 @@ def build_model(num_classes=6):
         name="Rice_Leaf_MobileNetV2"
     )
 
-    # 4. Compile model cho giai doan 1
+    return model, base_model
+
+
+def compile_stage1(model):
+    """
+    Compile mo hinh cho giai doan 1:
+    Chi huan luyen cac lop phan loai.
+    """
+
     model.compile(
         optimizer=keras.optimizers.Adam(
             learning_rate=LEARNING_RATE_STAGE1
@@ -95,13 +96,14 @@ def unfreeze_model(model):
 
     base_model = model.get_layer("mobilenetv2_1.00_224")
 
+    # Cho phep fine-tuning backbone
     base_model.trainable = True
 
-    # Mac dinh dong bang tat ca cac lop
+    # Dong bang tat ca cac lop truoc
     for layer in base_model.layers:
         layer.trainable = False
 
-    # Mo bang cac lop cuoi, tru BatchNormalization
+    # Mo bang cac lop cuoi
     for layer in base_model.layers[-FINE_TUNE_LAST_LAYERS:]:
         if not isinstance(layer, layers.BatchNormalization):
             layer.trainable = True
@@ -121,21 +123,30 @@ def unfreeze_model(model):
 if __name__ == "__main__":
 
     print("=" * 60)
-    print("XAY DUNG MO HINH CNN MOBILENETV2")
+    print("XAY DUNG MO HINH MOBILENETV2")
     print("=" * 60)
 
-    model = build_model(num_classes=6)
+    # Khoi tao mo hinh
+    model, base_model = build_model(num_classes=6)
 
+    # Compile giai doan 1
+    compile_stage1(model)
+
+    # Hien thi cau truc mo hinh
     model.summary()
 
+    # Thong ke tham so
     total_params = model.count_params()
 
     trainable_params = sum(
-        tf.size(variable).numpy()
+        int(tf.size(variable).numpy())
         for variable in model.trainable_variables
     )
 
+    non_trainable_params = total_params - trainable_params
+
     print("\nTONG SO THAM SO:", total_params)
     print("THAM SO CO THE HUAN LUYEN:", trainable_params)
+    print("THAM SO KHONG HUAN LUYEN:", non_trainable_params)
 
     print("\nKHOI TAO MO HINH THANH CONG!")
