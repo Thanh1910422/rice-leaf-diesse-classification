@@ -1,24 +1,43 @@
 
-import hashlib
-from collections import defaultdict
+import csv
+from collections import Counter, defaultdict
+from pathlib import Path
+
 from PIL import Image, UnidentifiedImageError
 
 from src.config import SOURCE_DIR, SUPPORTED_EXTENSIONS
 
 
-def calculate_hash(image_path):
-    sha256 = hashlib.sha256()
+def analyze_image(image_path):
+    """Đọc và lấy thông tin cơ bản của ảnh."""
+    try:
+        with Image.open(image_path) as img:
+            img.load()
 
-    with image_path.open("rb") as file:
-        for chunk in iter(lambda: file.read(1024 * 1024), b""):
-            sha256.update(chunk)
+            return {
+                "status": "OK",
+                "width": img.width,
+                "height": img.height,
+                "format": img.format,
+                "mode": img.mode,
+                "channels": len(img.getbands()),
+            }
 
-    return sha256.hexdigest()
+    except (UnidentifiedImageError, OSError, ValueError) as error:
+        return {
+            "status": "ERROR",
+            "width": None,
+            "height": None,
+            "format": None,
+            "mode": None,
+            "channels": None,
+            "error": str(error),
+        }
 
 
 def main():
     print("=" * 65)
-    print("KIEM TRA BO DU LIEU BENH LA LUA")
+    print("PHAN TICH CHAT LUONG BO DU LIEU LA LUA")
     print("=" * 65)
 
     if not SOURCE_DIR.exists():
@@ -34,80 +53,119 @@ def main():
         print("Khong tim thay thu muc lop!")
         return
 
-    print(f"\nDuong dan: {SOURCE_DIR}")
-    print(f"So lop tim thay: {len(class_folders)}")
+    print(f"\nDuong dan dataset: {SOURCE_DIR}")
+    print(f"So lop: {len(class_folders)}")
 
     total_images = 0
     valid_images = 0
-    invalid_images = []
-    hashes = defaultdict(list)
-    class_counts = {}
+    invalid_images = 0
+
+    class_counts = Counter()
+    image_sizes = Counter()
+    image_modes = Counter()
+    image_formats = Counter()
+
+    report_rows = []
 
     for class_folder in class_folders:
-        images = [
+        images = sorted(
             path for path in class_folder.rglob("*")
             if path.is_file()
             and path.suffix.lower() in SUPPORTED_EXTENSIONS
-        ]
-
-        class_counts[class_folder.name] = len(images)
-        total_images += len(images)
+        )
 
         print(f"\nLop: {class_folder.name}")
-        print(f"So anh: {len(images)}")
+        print(f"So anh tim thay: {len(images)}")
+
+        class_counts[class_folder.name] = len(images)
 
         for image_path in images:
-            try:
-                with Image.open(image_path) as img:
-                    img.verify()
+            total_images += 1
 
+            info = analyze_image(image_path)
+
+            row = {
+                "class_name": class_folder.name,
+                "image_path": str(image_path),
+                **info,
+            }
+
+            report_rows.append(row)
+
+            if info["status"] == "OK":
                 valid_images += 1
 
-                image_hash = calculate_hash(image_path)
-                hashes[image_hash].append(str(image_path))
+                image_sizes[
+                    f'{info["width"]}x{info["height"]}'
+                ] += 1
 
-            except (
-                UnidentifiedImageError,
-                OSError,
-                ValueError
-            ):
-                invalid_images.append(str(image_path))
+                image_modes[info["mode"]] += 1
+                image_formats[info["format"]] += 1
 
-    duplicate_groups = [
-        paths for paths in hashes.values()
-        if len(paths) > 1
+            else:
+                invalid_images += 1
+                print(f"Anh loi: {image_path}")
+
+    # Tạo thư mục output
+    output_dir = Path("output")
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Xuất báo cáo CSV
+    report_path = output_dir / "image_quality_report.csv"
+
+    fieldnames = [
+        "class_name",
+        "image_path",
+        "status",
+        "width",
+        "height",
+        "format",
+        "mode",
+        "channels",
+        "error",
     ]
 
-    duplicate_count = sum(
-        len(paths) - 1 for paths in duplicate_groups
-    )
+    with report_path.open(
+        "w",
+        newline="",
+        encoding="utf-8-sig"
+    ) as file:
+        writer = csv.DictWriter(
+            file,
+            fieldnames=fieldnames
+        )
+        writer.writeheader()
+        writer.writerows(report_rows)
 
+    # Hiển thị kết quả
     print("\n" + "=" * 65)
-    print("KET QUA KIEM TRA")
+    print("KET QUA PHAN TICH DATASET")
     print("=" * 65)
 
     print(f"Tong so anh: {total_images}")
-    print(f"Anh doc duoc: {valid_images}")
-    print(f"Anh loi: {len(invalid_images)}")
-    print(f"So nhom anh trung: {len(duplicate_groups)}")
-    print(f"So anh trung du thua: {duplicate_count}")
+    print(f"Anh hop le: {valid_images}")
+    print(f"Anh loi: {invalid_images}")
 
-    print("\nTHONG KE TUNG LOP:")
+    print("\nTHONG KE THEO LOP:")
     for class_name, count in class_counts.items():
         print(f"{class_name}: {count}")
 
-    if invalid_images:
-        print("\nMOT SO ANH LOI:")
-        for path in invalid_images[:10]:
-            print(path)
+    print("\nTHONG KE KICH THUOC ANH:")
+    for size, count in image_sizes.most_common():
+        print(f"{size}: {count} anh")
 
-    if duplicate_groups:
-        print("\nMOT SO NHOM ANH TRUNG:")
-        for group in duplicate_groups[:5]:
-            print("\n".join(group))
-            print("-" * 30)
+    print("\nTHONG KE CHE DO MAU:")
+    for mode, count in image_modes.items():
+        print(f"{mode}: {count} anh")
 
-    print("\nHOAN THANH KIEM TRA!")
+    print("\nTHONG KE DINH DANG:")
+    for image_format, count in image_formats.items():
+        print(f"{image_format}: {count} anh")
+
+    print("\n" + "=" * 65)
+    print("HOAN THANH PHAN TICH!")
+    print(f"Bao cao da luu tai: {report_path}")
+    print("=" * 65)
 
 
 if __name__ == "__main__":

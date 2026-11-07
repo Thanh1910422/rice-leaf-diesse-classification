@@ -3,7 +3,6 @@ import json
 import tensorflow as tf
 
 from tensorflow import keras
-from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 
 from src.config import (
     TRAIN_MANIFEST,
@@ -46,7 +45,8 @@ def load_image(image_path, label):
         IMAGE_SIZE
     )
 
-    image = preprocess_input(image)
+    # Giữ pixel ở thang [0, 255]. model.py sẽ preprocess đúng một lần.
+    image = tf.cast(image, tf.float32)
 
     label = tf.cast(label, tf.int32)
 

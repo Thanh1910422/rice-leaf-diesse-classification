@@ -1,5 +1,6 @@
 
 import json
+import shutil
 import tensorflow as tf
 
 from tensorflow import keras
@@ -38,7 +39,7 @@ def create_callbacks(checkpoint_path, log_path):
 
         keras.callbacks.EarlyStopping(
             monitor="val_loss",
-            patience=4,
+            patience=6,
             restore_best_weights=True,
             mode="min",
             verbose=1
@@ -226,9 +227,11 @@ def main():
 
     print("\n[4] NAP MO HINH TOT NHAT GIAI DOAN 1...")
 
-    model = keras.models.load_model(
-        BEST_MODEL_PATH
-    )
+    model = keras.models.load_model(BEST_MODEL_PATH)
+
+    # Dùng mô hình tốt nhất Stage 1 làm phương án an toàn ban đầu.
+    # Nếu Stage 2 không cải thiện val_loss, file FINAL vẫn hợp lệ.
+    shutil.copy2(BEST_MODEL_PATH, FINAL_MODEL_PATH)
 
     print("\nNap mo hinh giai doan 1 thanh cong!")
 

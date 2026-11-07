@@ -165,6 +165,8 @@ def main():
             f"Khong tim thay thu muc: {SOURCE_DIR}"
         )
 
+    SPLIT_DIR.mkdir(parents=True, exist_ok=True)
+
     hash_groups, class_names = collect_images()
 
     print("\nSo lop:", len(class_names))

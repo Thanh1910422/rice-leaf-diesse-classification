@@ -6,7 +6,6 @@ import numpy as np
 from pathlib import Path
 from PIL import Image
 from tensorflow import keras
-from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 
 from src.config import (
     FINAL_MODEL_PATH,
@@ -39,8 +38,7 @@ def preprocess_image(image_path):
     image = np.asarray(image, dtype=np.float32)
     image = np.expand_dims(image, axis=0)
 
-    image = preprocess_input(image)
-
+    # Không preprocess tại đây: model.py đã tích hợp preprocess_input.
     return image
 
 

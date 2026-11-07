@@ -1,8 +1,9 @@
 
 import tensorflow as tf
 
-from tensorflow import keras
-from tensorflow.keras import layers
+import keras
+
+from keras import layers
 
 from src.config import (
     IMAGE_SIZE,
@@ -17,8 +18,16 @@ def build_model(num_classes, image_size=IMAGE_SIZE):
     Xay dung mo hinh MobileNetV2 Transfer Learning.
     """
 
+    # Chuan hoa kich thuoc anh
+    if isinstance(image_size, int):
+        input_shape = (image_size, image_size, 3)
+    else:
+        input_shape = (image_size[0], image_size[1], 3)
+
+    # Khoi tao dau vao
     inputs = keras.Input(
-        shape=(image_size, image_size, 3),
+        shape=input_shape,
+        dtype=tf.float32,
         name="input_image"
     )
 
@@ -33,7 +42,7 @@ def build_model(num_classes, image_size=IMAGE_SIZE):
 
     # 3. Pretrained MobileNetV2
     base_model = keras.applications.MobileNetV2(
-        input_shape=(image_size, image_size, 3),
+        input_shape=input_shape,
         include_top=False,
         weights="imagenet"
     )

@@ -5,8 +5,6 @@ import streamlit as st
 
 from PIL import Image
 from tensorflow import keras
-from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
-
 from src.config import (
     FINAL_MODEL_PATH,
     CLASS_NAMES_PATH,
@@ -63,16 +61,25 @@ def load_class_names():
 # ==============================
 
 def preprocess_image(image):
+    # Chuyển ảnh về RGB
     image = image.convert("RGB")
 
+    # Resize ảnh về 224 x 224
     image = image.resize(
         (IMAGE_SIZE[1], IMAGE_SIZE[0])
     )
 
-    image = np.asarray(image, dtype=np.float32)
-    image = np.expand_dims(image, axis=0)
+    # Chuyển ảnh thành mảng NumPy float32
+    image = np.asarray(
+        image,
+        dtype=np.float32
+    )
 
-    image = preprocess_input(image)
+    # Thêm chiều Batch
+    image = np.expand_dims(
+        image,
+        axis=0
+    )
 
     return image
 
@@ -127,7 +134,12 @@ if uploaded_file is not None:
                 processed_image = preprocess_image(
                     original_image
                 )
+                st.subheader("Thông tin ảnh sau tiền xử lý")
 
+                st.write("Shape:", processed_image.shape)
+                st.write("Data type:", processed_image.dtype)
+                st.write("Pixel nhỏ nhất:", processed_image.min())
+                st.write("Pixel lớn nhất:", processed_image.max())
                 probabilities = model.predict(
                     processed_image,
                     verbose=0

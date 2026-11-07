@@ -1,11 +1,10 @@
-
 import json
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
+import keras
 
 from pathlib import Path
-from tensorflow import keras
 from sklearn.metrics import (
     accuracy_score,
     classification_report,
