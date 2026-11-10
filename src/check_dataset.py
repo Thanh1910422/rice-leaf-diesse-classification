@@ -74,8 +74,7 @@ def main():
             and path.suffix.lower() in SUPPORTED_EXTENSIONS
         )
 
-        print(f"\nLop: {class_folder.name}")
-        print(f"So anh tim thay: {len(images)}")
+        print(f"\nLop: {class_folder.name} ({len(images)} anh)")
 
         class_counts[class_folder.name] = len(images)
 
