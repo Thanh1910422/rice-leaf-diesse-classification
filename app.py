@@ -11,10 +11,7 @@ from src.config import (
     IMAGE_SIZE,
 )
 
-
-# ==============================
 # 1. CAU HINH GIAO DIEN
-# ==============================
 
 st.set_page_config(
     page_title="Rice Leaf Disease Classification",
@@ -30,10 +27,7 @@ st.markdown(
 
 st.divider()
 
-
-# ==============================
 # 2. TAI MO HINH
-# ==============================
 
 @st.cache_resource
 def load_model():
@@ -55,10 +49,7 @@ def load_class_names():
     with open(CLASS_NAMES_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
 
-
-# ==============================
 # 3. TIEN XU LY ANH
-# ==============================
 
 def preprocess_image(image):
     # Chuyển ảnh về RGB
@@ -82,11 +73,7 @@ def preprocess_image(image):
     )
 
     return image
-
-
-# ==============================
 # 4. GIAO DIEN TAI ANH
-# ==============================
 
 st.subheader("1. Tải ảnh lá lúa lên")
 
@@ -114,10 +101,7 @@ if uploaded_file is not None:
         st.write("Kích thước:", original_image.size)
 
     st.divider()
-
-    # ==============================
     # 5. DU DOAN
-    # ==============================
 
     if st.button(
         "🔍 DỰ ĐOÁN BỆNH LÁ LÚA",
@@ -153,9 +137,7 @@ if uploaded_file is not None:
                     probabilities[best_index]
                 ) * 100
 
-            # ==============================
             # 6. HIEN THI KET QUA
-            # ==============================
 
             st.success("Đã hoàn thành dự đoán!")
 
@@ -176,10 +158,7 @@ if uploaded_file is not None:
                 )
 
             st.divider()
-
-            # ==============================
             # 7. XAC SUAT CAC LOP
-            # ==============================
 
             st.subheader("3. Xác suất dự đoán của 6 lớp")
 
@@ -196,10 +175,7 @@ if uploaded_file is not None:
                 st.progress(
                     float(probabilities[index])
                 )
-
-            # ==============================
             # 8. TOP 3
-            # ==============================
 
             st.divider()
             st.subheader("4. Top 3 kết quả")

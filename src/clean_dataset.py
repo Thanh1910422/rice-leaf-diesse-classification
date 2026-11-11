@@ -2,10 +2,7 @@ import hashlib
 import csv
 from pathlib import Path
 from collections import defaultdict
-
-# =====================================
 # 1. CẤU HÌNH DATASET
-# =====================================
 
 # Thư mục gốc của dự án
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -27,10 +24,7 @@ IMAGE_EXTENSIONS = {
     ".jpg", ".jpeg", ".png", ".bmp", ".webp"
 }
 
-
-# =====================================
 # 2. TÍNH HASH ẢNH
-# =====================================
 
 def calculate_hash(image_path):
 
@@ -45,10 +39,7 @@ def calculate_hash(image_path):
 
     return sha256.hexdigest()
 
-
-# =====================================
 # 3. QUÉT DATASET
-# =====================================
 
 def scan_dataset():
 
@@ -87,10 +78,7 @@ def scan_dataset():
 
     return hash_groups, total_images
 
-
-# =====================================
 # 4. PHÂN LOẠI ẢNH TRÙNG
-# =====================================
 
 def analyze_duplicates(hash_groups):
 
@@ -131,10 +119,7 @@ def analyze_duplicates(hash_groups):
         cross_class_groups
     )
 
-
-# =====================================
 # 5. XUẤT BÁO CÁO CSV
-# =====================================
 
 def export_report(duplicate_groups):
 
@@ -164,11 +149,7 @@ def export_report(duplicate_groups):
                     image["class_name"],
                     image["image_path"]
                 ])
-
-
-# =====================================
 # 6. CHƯƠNG TRÌNH CHÍNH
-# =====================================
 
 def main():
 

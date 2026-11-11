@@ -30,16 +30,16 @@ def build_model(num_classes, image_size=IMAGE_SIZE):
         name="input_image"
     )
 
-    # 1. Data augmentation
+    # 1. Tang cuong du lieu anh (Data Augmentation)
     x = layers.RandomFlip("horizontal")(inputs)
     x = layers.RandomRotation(0.08)(x)
     x = layers.RandomZoom(0.10)(x)
     x = layers.RandomContrast(0.10)(x)
 
-    # 2. MobileNetV2 preprocessing
+    # 2. Chuan hoa anh (Preprocessing)
     x = keras.applications.mobilenet_v2.preprocess_input(x)
 
-    # 3. Pretrained MobileNetV2
+    # 3. Backbone MobileNetV2
     base_model = keras.applications.MobileNetV2(
         input_shape=input_shape,
         include_top=False,
@@ -51,7 +51,7 @@ def build_model(num_classes, image_size=IMAGE_SIZE):
 
     x = base_model(x, training=False)
 
-    # 4. Classification head
+    # 4. Phan loai (Classification Head)
     x = layers.GlobalAveragePooling2D()(x)
 
     x = layers.BatchNormalization()(x)

@@ -178,9 +178,7 @@ def main():
     print("HUAN LUYEN MOBILENETV2 PHAN LOAI BENH LA LUA")
     print("=" * 60)
 
-    # --------------------------------------------------
     # 1. DOC DU LIEU
-    # --------------------------------------------------
 
     print("\n[1] DANG DOC DU LIEU...")
 
@@ -195,9 +193,7 @@ def main():
     for index, class_name in enumerate(class_names):
         print(f"{index}: {class_name}")
 
-    # --------------------------------------------------
     # 2. KHOI TAO MO HINH
-    # --------------------------------------------------
 
     print("\n[2] DANG KHOI TAO MO HINH...")
 
@@ -208,10 +204,7 @@ def main():
     print("\nKhoi tao mo hinh thanh cong!")
 
     print("\nTong so tham so:", model.count_params())
-
-    # --------------------------------------------------
     # 3. GIAI DOAN 1
-    # --------------------------------------------------
 
     print("\n[3] BAT DAU GIAI DOAN 1...")
 
@@ -220,10 +213,7 @@ def main():
         train_data,
         val_data
     )
-
-    # --------------------------------------------------
     # 4. NAP MO HINH TOT NHAT GIAI DOAN 1
-    # --------------------------------------------------
 
     print("\n[4] NAP MO HINH TOT NHAT GIAI DOAN 1...")
 
@@ -234,10 +224,7 @@ def main():
     shutil.copy2(BEST_MODEL_PATH, FINAL_MODEL_PATH)
 
     print("\nNap mo hinh giai doan 1 thanh cong!")
-
-    # --------------------------------------------------
     # 5. GIAI DOAN 2
-    # --------------------------------------------------
 
     print("\n[5] BAT DAU GIAI DOAN 2...")
 
@@ -246,10 +233,7 @@ def main():
         train_data,
         val_data
     )
-
-    # --------------------------------------------------
     # 6. KET THUC
-    # --------------------------------------------------
 
     print("\n" + "=" * 60)
     print("HOAN THANH HUAN LUYEN!")

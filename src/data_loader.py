@@ -14,7 +14,6 @@ from src.config import (
     SEED,
 )
 
-
 AUTOTUNE = tf.data.AUTOTUNE
 
 
@@ -99,6 +98,7 @@ def load_data():
     class_names = load_json(CLASS_NAMES_PATH)
 
     print("\nSo luong anh:")
+    print("Tổng số ảnh sau khi xử lý :", len(train_records) + len(val_records) + len(test_records))
     print("Training:", len(train_records))
     print("Validation:", len(val_records))
     print("Testing:", len(test_records))
