@@ -1,10 +1,12 @@
 
 import json
+from pathlib import Path
+
+import numpy as np
 import tensorflow as tf
 
-from tensorflow import keras
-
 from src.config import (
+    ROOT_DIR,
     TRAIN_MANIFEST,
     VAL_MANIFEST,
     TEST_MANIFEST,
@@ -13,6 +15,7 @@ from src.config import (
     BATCH_SIZE,
     SEED,
 )
+from src.image_utils import load_image_array
 
 AUTOTUNE = tf.data.AUTOTUNE
 
@@ -23,40 +26,41 @@ def load_json(file_path):
         return json.load(f)
 
 
+def resolve_path(path):
+    """Manifest lưu đường dẫn tương đối so với thư mục dự án."""
+    path = Path(path)
+    return str(path if path.is_absolute() else ROOT_DIR / path)
+
+
 def load_image(image_path, label):
     """
-    Đọc ảnh, giải mã RGB, resize và tiền xử lý
-    phù hợp với MobileNetV2.
+    Đọc ảnh bằng hàm dùng chung với predict.py/app.py:
+    xoay theo EXIF, chuyển RGB, resize có khử răng cưa.
+    Trả về uint8 [0, 255]; model.py sẽ preprocess đúng một lần.
     """
 
-    image = tf.io.read_file(image_path)
-
-    image = tf.io.decode_image(
-        image,
-        channels=3,
-        expand_animations=False
+    image = tf.numpy_function(
+        lambda path: load_image_array(path.decode("utf-8")),
+        [image_path],
+        tf.uint8
     )
 
-    image.set_shape([None, None, 3])
-
-    image = tf.image.resize(
-        image,
-        IMAGE_SIZE
-    )
-
-    # Giữ pixel ở thang [0, 255]. model.py sẽ preprocess đúng một lần.
-    image = tf.cast(image, tf.float32)
+    image.set_shape([IMAGE_SIZE[0], IMAGE_SIZE[1], 3])
 
     label = tf.cast(label, tf.int32)
 
     return image, label
 
 
+def to_float(images, labels):
+    return tf.cast(images, tf.float32), labels
+
+
 def create_dataset(records, training=False):
     """Tạo TensorFlow Dataset từ danh sách ảnh."""
 
     image_paths = [
-        record["path"] for record in records
+        resolve_path(record["path"]) for record in records
     ]
 
     labels = [
@@ -67,6 +71,13 @@ def create_dataset(records, training=False):
         (image_paths, labels)
     )
 
+    # Giải mã + resize một lần rồi cache (uint8) trong RAM,
+    # không phải đọc lại ảnh 1600x1200 ở mỗi epoch.
+    dataset = dataset.map(
+        load_image,
+        num_parallel_calls=AUTOTUNE
+    ).cache()
+
     if training:
         dataset = dataset.shuffle(
             buffer_size=len(records),
@@ -74,16 +85,29 @@ def create_dataset(records, training=False):
             reshuffle_each_iteration=True
         )
 
-    dataset = dataset.map(
-        load_image,
-        num_parallel_calls=AUTOTUNE
-    )
-
     dataset = dataset.batch(BATCH_SIZE)
+
+    dataset = dataset.map(to_float, num_parallel_calls=AUTOTUNE)
 
     dataset = dataset.prefetch(AUTOTUNE)
 
     return dataset
+
+
+def compute_class_weights(records, num_classes):
+    """Trọng số lớp tỷ lệ nghịch số ảnh (dữ liệu gốc mất cân bằng)."""
+
+    counts = np.bincount(
+        [record["label"] for record in records],
+        minlength=num_classes
+    )
+    total = counts.sum()
+
+    return {
+        label: float(total / (num_classes * count))
+        for label, count in enumerate(counts)
+        if count > 0
+    }
 
 
 def load_data():
@@ -127,6 +151,15 @@ def load_data():
         val_dataset,
         test_dataset,
         class_names
+    )
+
+
+def load_train_class_weights():
+    """Trọng số lớp tính từ tập train."""
+    class_names = load_json(CLASS_NAMES_PATH)
+    return compute_class_weights(
+        load_json(TRAIN_MANIFEST),
+        len(class_names)
     )
 
 

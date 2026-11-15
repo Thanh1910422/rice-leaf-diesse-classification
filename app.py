@@ -3,13 +3,13 @@ import json
 import numpy as np
 import streamlit as st
 
-from PIL import Image
+from PIL import Image, ImageOps
 from tensorflow import keras
 from src.config import (
     FINAL_MODEL_PATH,
     CLASS_NAMES_PATH,
-    IMAGE_SIZE,
 )
+from src.image_utils import prepare_pil_image, to_model_input
 
 # 1. CAU HINH GIAO DIEN
 
@@ -52,27 +52,9 @@ def load_class_names():
 # 3. TIEN XU LY ANH
 
 def preprocess_image(image):
-    # Chuyển ảnh về RGB
-    image = image.convert("RGB")
-
-    # Resize ảnh về 224 x 224
-    image = image.resize(
-        (IMAGE_SIZE[1], IMAGE_SIZE[0])
-    )
-
-    # Chuyển ảnh thành mảng NumPy float32
-    image = np.asarray(
-        image,
-        dtype=np.float32
-    )
-
-    # Thêm chiều Batch
-    image = np.expand_dims(
-        image,
-        axis=0
-    )
-
-    return image
+    # Dùng chung hàm tiền xử lý với lúc huấn luyện:
+    # xoay theo EXIF, chuyển RGB, resize 224x224, thêm chiều batch.
+    return to_model_input(prepare_pil_image(image))
 # 4. GIAO DIEN TAI ANH
 
 st.subheader("1. Tải ảnh lá lúa lên")
@@ -84,7 +66,7 @@ uploaded_file = st.file_uploader(
 
 if uploaded_file is not None:
 
-    original_image = Image.open(uploaded_file)
+    original_image = ImageOps.exif_transpose(Image.open(uploaded_file))
 
     col1, col2 = st.columns(2)
 

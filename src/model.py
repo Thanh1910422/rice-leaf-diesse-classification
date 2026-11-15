@@ -31,7 +31,7 @@ def build_model(num_classes, image_size=IMAGE_SIZE):
     )
 
     # 1. Tang cuong du lieu anh (Data Augmentation)
-    x = layers.RandomFlip("horizontal")(inputs)
+    x = layers.RandomFlip("horizontal_and_vertical")(inputs)
     x = layers.RandomRotation(0.08)(x)
     x = layers.RandomZoom(0.10)(x)
     x = layers.RandomContrast(0.10)(x)
