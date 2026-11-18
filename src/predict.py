@@ -4,14 +4,15 @@ import json
 import numpy as np
 
 from pathlib import Path
+from PIL import Image
 from tensorflow import keras
 
 from src.config import (
     FINAL_MODEL_PATH,
     CLASS_NAMES_PATH,
+    IMAGE_SIZE,
     OUTPUT_DIR,
 )
-from src.image_utils import load_image_array, to_model_input
 
 
 # Cac dinh dang anh duoc ho tro khi du doan ca thu muc
@@ -54,9 +55,13 @@ def preprocess_image(image_path):
     if not image_path.exists():
         raise FileNotFoundError(f"Khong tim thay anh: {image_path}")
 
-    # Dung chung ham tien xu ly voi luc huan luyen (EXIF + resize).
+    image = Image.open(image_path).convert("RGB")
+    image = image.resize((IMAGE_SIZE[1], IMAGE_SIZE[0]))
+    image = np.asarray(image, dtype=np.float32)
+    image = np.expand_dims(image, axis=0)
+
     # Khong preprocess tai day vi model.py da tich hop preprocess_input.
-    return to_model_input(load_image_array(image_path))
+    return image
 
 
 def print_prediction_details(probabilities, class_names):

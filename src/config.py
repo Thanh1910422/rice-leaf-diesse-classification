@@ -26,6 +26,8 @@ PREDICTION_DIR = OUTPUT_DIR / "predictions"
 
 # Cấu hình ảnh
 IMAGE_SIZE = (224, 224)
+# Ảnh đã tiền xử lý (dùng trong src/image_utils.py): data/processed/224x224
+PROCESSED_IMAGE_DIR = PROCESSED_DIR / f"{IMAGE_SIZE[0]}x{IMAGE_SIZE[1]}"
 BATCH_SIZE = 8
 SEED = 42
 
@@ -42,22 +44,6 @@ LEARNING_RATE_STAGE1 = 1e-3
 LEARNING_RATE_STAGE2 = 1e-5
 
 FINE_TUNE_LAST_LAYERS = 30
-
-# Chống rò rỉ dữ liệu (data leakage)
-# Bộ Rice_Leaf_AUG chứa ảnh tăng cường "aug_*.jpg" được sinh SẴN từ ảnh gốc.
-# Nếu chia ngẫu nhiên, các biến thể của cùng một chiếc lá rơi vào cả
-# train lẫn test -> độ chính xác test bị thổi phồng.
-AUGMENTED_PREFIX = "aug_"
-
-# Ảnh gốc chụp liên tiếp / bản "- Copy" gần như giống hệt nhau được gom
-# thành một nhóm nếu độ tương đồng cosine đặc trưng CNN >= ngưỡng này.
-NEAR_DUPLICATE_THRESHOLD = 0.88
-
-# False: chỉ dùng ảnh gốc (augmentation online trong model.py) - an toàn nhất.
-# True : thêm ảnh aug_* vào TẬP TRAIN, chỉ khi ảnh gốc khớp nhất của nó
-#        (top-k) đều thuộc tập train. Val/Test luôn chỉ gồm ảnh gốc.
-USE_OFFLINE_AUG = False
-AUG_MATCH_TOP_K = 3
 
 # Định dạng ảnh
 SUPPORTED_EXTENSIONS = {

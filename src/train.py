@@ -14,7 +14,7 @@ from src.config import (
     EPOCHS_STAGE2,
 )
 
-from src.data_loader import load_data, load_train_class_weights
+from src.data_loader import load_data
 
 from src.model import (
     build_model,
@@ -79,7 +79,7 @@ def save_history(history, file_path):
         )
 
 
-def train_stage1(model, train_data, val_data, class_weight=None):
+def train_stage1(model, train_data, val_data):
     """
     Giai doan 1: Feature Extraction.
     Dong bang MobileNetV2 va huan luyen lop phan loai.
@@ -102,7 +102,6 @@ def train_stage1(model, train_data, val_data, class_weight=None):
         validation_data=val_data,
         epochs=EPOCHS_STAGE1,
         callbacks=callbacks,
-        class_weight=class_weight,
         verbose=1
     )
 
@@ -116,7 +115,7 @@ def train_stage1(model, train_data, val_data, class_weight=None):
     return history
 
 
-def train_stage2(model, train_data, val_data, class_weight=None):
+def train_stage2(model, train_data, val_data):
     """
     Giai doan 2: Fine-tuning.
     Mo bang mot so lop cuoi cua MobileNetV2.
@@ -149,7 +148,6 @@ def train_stage2(model, train_data, val_data, class_weight=None):
         validation_data=val_data,
         epochs=EPOCHS_STAGE2,
         callbacks=callbacks,
-        class_weight=class_weight,
         verbose=1
     )
 
@@ -188,13 +186,6 @@ def main():
 
     num_classes = len(class_names)
 
-    # Du lieu goc mat can bang lop -> dung trong so lop
-    class_weight = load_train_class_weights()
-    print(
-        "\nTrong so lop:",
-        {class_names[k]: round(v, 3) for k, v in class_weight.items()}
-    )
-
     print("\nSo lop:", num_classes)
 
     print("\nDanh sach cac lop:")
@@ -220,8 +211,7 @@ def main():
     train_stage1(
         model,
         train_data,
-        val_data,
-        class_weight
+        val_data
     )
     # 4. NAP MO HINH TOT NHAT GIAI DOAN 1
 
@@ -241,8 +231,7 @@ def main():
     train_stage2(
         model,
         train_data,
-        val_data,
-        class_weight
+        val_data
     )
     # 6. KET THUC
 
