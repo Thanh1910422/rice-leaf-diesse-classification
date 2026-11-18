@@ -26,6 +26,8 @@ PREDICTION_DIR = OUTPUT_DIR / "predictions"
 
 # Cấu hình ảnh
 IMAGE_SIZE = (224, 224)
+# Ảnh đã tiền xử lý (dùng trong src/image_utils.py): data/processed/224x224
+PROCESSED_IMAGE_DIR = PROCESSED_DIR / f"{IMAGE_SIZE[0]}x{IMAGE_SIZE[1]}"
 BATCH_SIZE = 8
 SEED = 42
 
