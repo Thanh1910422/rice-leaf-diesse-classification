@@ -1,31 +1,24 @@
+"""
+Rice leaf disease app: show MobileNetV2 and DenseNet121 predictions side by side.
+Run: streamlit run app.py
+"""
+import importlib
 import json
+from pathlib import Path
+
 import numpy as np
 import streamlit as st
-
 from PIL import Image, ImageOps
 from tensorflow import keras
-from src.config import (
-    FINAL_MODEL_PATH,
-    CLASS_NAMES_PATH,
-)
-# Hai hàm này có trong cả code gốc lẫn code mới -> app chạy với mọi phiên bản
-from src.image_utils import prepare_pil_image, to_model_input
 
-# Tên hiển thị tiếng Việt. Khoá đã chuẩn hoá (chữ thường, bỏ dấu cách/_/-)
-# nên khớp với "Leaf scald", "Leaf_scald", "Narrow_Brown_Spot"...
+MODEL_LABELS = {"mobilenetv2": "MobileNetV2", "densenet121": "DenseNet121"}
 VIETNAMESE_NAMES = {
-    # Bộ Rice_Leaf_AUG
     "bacterialleafblight": "Bạc lá (Bacterial Leaf Blight)",
     "brownspot": "Đốm nâu (Brown Spot)",
     "healthyriceleaf": "Lá khỏe mạnh (Healthy)",
     "leafblast": "Đạo ôn lá (Leaf Blast)",
     "leafscald": "Cháy bìa lá (Leaf Scald)",
     "sheathblight": "Khô vằn (Sheath Blight)",
-    # Bộ RiceLeafDisease-BD5
-    "blast": "Đạo ôn (Blast)",
-    "narrowbrownspot": "Đốm nâu hẹp (Narrow Brown Spot)",
-    "normalleaf": "Lá khỏe mạnh (Normal Leaf)",
-    "tungro": "Vàng lùn Tungro (Tungro)",
 }
 
 
@@ -34,151 +27,198 @@ def display_name(class_name):
     return VIETNAMESE_NAMES.get(key, class_name)
 
 
-# 1. CAU HINH GIAO DIEN
-
-st.set_page_config(
-    page_title="Rice Leaf Disease Classification",
-    page_icon="🌾",
-    layout="wide"
-)
-
+st.set_page_config(page_title="Rice Leaf Disease Classification",
+                   page_icon="🌾", layout="wide")
 st.title("🌾 HỆ THỐNG PHÂN LOẠI BỆNH LÁ LÚA")
-st.markdown(
-    "Ứng dụng sử dụng mô hình **MobileNetV2 Transfer Learning** "
-    "để nhận diện bệnh trên lá lúa."
-)
-
+st.markdown("Tải lên một ảnh lá lúa để xem kết quả dự đoán của "
+            "**MobileNetV2 và DenseNet121 song song**.")
 st.divider()
 
-# 2. TAI MO HINH
+AVAILABLE_MODELS = {}
+MODEL_ERRORS = {}
+for model_name in MODEL_LABELS:
+    try:
+        config = importlib.import_module(f"src.{model_name}.config")
+        if config.FINAL_MODEL_PATH.exists():
+            AVAILABLE_MODELS[model_name] = config
+        else:
+            MODEL_ERRORS[model_name] = f"Không tìm thấy mô hình: {config.FINAL_MODEL_PATH}"
+    except Exception as error:
+        MODEL_ERRORS[model_name] = str(error)
+
 
 @st.cache_resource
-def load_model():
-    if not FINAL_MODEL_PATH.exists():
-        raise FileNotFoundError(
-            f"Khong tim thay mo hinh: {FINAL_MODEL_PATH}"
-        )
-
-    return keras.models.load_model(FINAL_MODEL_PATH)
+def load_model(model_path):
+    return keras.models.load_model(model_path)
 
 
 @st.cache_data
-def load_class_names():
-    if not CLASS_NAMES_PATH.exists():
-        raise FileNotFoundError(
-            f"Khong tim thay danh sach lop: {CLASS_NAMES_PATH}"
+def load_class_names(class_names_path):
+    path = Path(class_names_path)
+    if not path.exists():
+        raise FileNotFoundError(f"Không tìm thấy danh sách lớp: {path}")
+    with open(path, "r", encoding="utf-8") as file:
+        return json.load(file)
+
+
+def predict_for_model(model_name, config, image):
+    image_utils = importlib.import_module(f"src.{model_name}.image_utils")
+    model = load_model(str(config.FINAL_MODEL_PATH))
+    class_names = load_class_names(str(config.CLASS_NAMES_PATH))
+
+    if model.output_shape[-1] != len(class_names):
+        raise ValueError(
+            f"Mô hình có {model.output_shape[-1]} lớp nhưng "
+            f"class_names.json có {len(class_names)} lớp."
         )
 
-    with open(CLASS_NAMES_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)
+    prepared = image_utils.prepare_pil_image(image)
+    model_input = image_utils.to_model_input(prepared)
+    probabilities = model.predict(model_input, verbose=0)[0]
 
-# 3. TIEN XU LY ANH
+    if len(probabilities) != len(class_names):
+        raise ValueError("Số xác suất dự đoán không khớp số lớp.")
 
-def preprocess_image(image):
-    # Dùng chung hàm tiền xử lý với lúc huấn luyện:
-    # xoay theo EXIF, chuyển RGB, resize 224x224, thêm chiều batch.
-    return to_model_input(prepare_pil_image(image))
-# 4. GIAO DIEN TAI ANH
+    order = np.argsort(probabilities)[::-1]
+    best = int(order[0])
+    return {
+        "class_names": class_names,
+        "probabilities": probabilities,
+        "order": order,
+        "prediction": class_names[best],
+        "confidence": float(probabilities[best]) * 100,
+        "input_shape": model_input.shape,
+    }
 
-uploaded_file = st.file_uploader(
-    "Tải ảnh lá lúa cần nhận diện",
-    type=["jpg", "jpeg", "png", "bmp", "webp"]
+
+def show_model_result(model_name, config, image):
+    st.subheader(MODEL_LABELS[model_name])
+    if config is None:
+        st.warning("Mô hình chưa sẵn sàng hoặc chưa được train.")
+        if model_name in MODEL_ERRORS:
+            st.caption(MODEL_ERRORS[model_name])
+        return
+
+    try:
+        with st.spinner(f"{MODEL_LABELS[model_name]} đang phân tích..."):
+            result = predict_for_model(model_name, config, image)
+
+        confidence = result["confidence"]
+        result_text = (
+            f"### {display_name(result['prediction'])}\n"
+            f"Độ tin cậy: **{confidence:.2f}%**"
+        )
+        if confidence >= 80:
+            st.success(result_text)
+        elif confidence >= 50:
+            st.warning(result_text + "\n\nĐộ tin cậy trung bình, nên kiểm tra lại.")
+        else:
+            st.error(result_text + "\n\nĐộ tin cậy thấp, kết quả chưa chắc chắn.")
+
+        st.markdown("**Xác suất các lớp**")
+        for rank, index in enumerate(result["order"], start=1):
+            prob = float(result["probabilities"][index])
+            label = display_name(result["class_names"][index])
+            st.progress(prob, text=f"{rank}. {label}: {prob * 100:.2f}%")
+
+        with st.expander("Thông tin tiền xử lý"):
+            st.write("Shape đầu vào:", result["input_shape"])
+            st.write("Kích thước ảnh gốc:", image.size)
+    except Exception as error:
+        st.error(f"Lỗi khi dự đoán bằng {MODEL_LABELS[model_name]}: {error}")
+
+
+if not AVAILABLE_MODELS:
+    st.error("Chưa tìm thấy mô hình đã train. Kiểm tra FINAL_MODEL_PATH trong config.py.")
+    for name, message in MODEL_ERRORS.items():
+        st.caption(f"{MODEL_LABELS[name]}: {message}")
+    st.stop()
+
+# Giao diện 3 cột theo sơ đồ: ảnh đầu vào | MobileNetV2 | DenseNet121
+st.markdown(
+    """
+    <style>
+    /* Tăng nhẹ cỡ chữ toàn giao diện, vẫn giữ bố cục 3 cột gọn gàng */
+    html, body, [class*="st-"], .stMarkdown, .stText, label,
+    [data-testid="stCaptionContainer"] {
+        font-size: 1.05rem;
+    }
+    .panel-heading {font-size: 1.25rem; font-weight: 700; margin-bottom: .7rem;}
+    .panel-note {color: #6b7280; font-size: .95rem;}
+    [data-testid="stFileUploader"] section {font-size: 1.02rem;}
+    [data-testid="stProgress"] p {font-size: 1rem;}
+    div[data-testid="stVerticalBlock"] > div:has(> div[data-testid="stFileUploader"]) {gap: .5rem;}
+    </style>
+    """,
+    unsafe_allow_html=True,
 )
 
-if uploaded_file is not None:
+image_col, mobilenet_col, densenet_col = st.columns([1.0, 1.15, 1.15], gap="large")
 
-    original_image = ImageOps.exif_transpose(Image.open(uploaded_file))
-
-    # Ảnh bên trái - kết quả bên phải, cùng một màn hình.
-    # Ảnh điện thoại thường dọc và rất cao -> thu nhỏ BẢN XEM TRƯỚC (cao tối đa
-    # PREVIEW_MAX_HEIGHT px) để ảnh và kết quả nằm gọn trong một màn hình.
-    # Mô hình vẫn dự đoán trên ảnh gốc đầy đủ.
-    PREVIEW_MAX_HEIGHT = 480
-    PREVIEW_MAX_WIDTH = 640
-
-    preview = original_image.copy()
-    preview.thumbnail((PREVIEW_MAX_WIDTH, PREVIEW_MAX_HEIGHT))
-
-    image_col, result_col = st.columns([1, 1], gap="large")
-
-    with image_col:
-        st.image(
-            preview,
-            caption=(
-                f"{uploaded_file.name} - "
-                f"{original_image.size[0]}x{original_image.size[1]}"
-            ),
-            width=preview.size[0]
-        )
-
-    with result_col:
+with image_col:
+    st.markdown('<div class="panel-heading">Ảnh tải lên</div>', unsafe_allow_html=True)
+    uploaded_file = st.file_uploader(
+        "Chọn ảnh lá lúa",
+        type=["jpg", "jpeg", "png", "bmp", "webp"],
+        label_visibility="collapsed",
+    )
+    image = None
+    if uploaded_file is not None:
         try:
-            # 5. DU DOAN (tự động ngay khi tải ảnh)
-            with st.spinner("Mô hình đang phân tích ảnh..."):
-                model = load_model()
-                class_names = load_class_names()
-
-                processed_image = preprocess_image(original_image)
-
-                probabilities = model.predict(
-                    processed_image,
-                    verbose=0
-                )[0]
-
-            sorted_indices = np.argsort(probabilities)[::-1]
-            best_index = int(sorted_indices[0])
-            predicted_class = class_names[best_index]
-            confidence = float(probabilities[best_index]) * 100
-
-            # 6. KET QUA CHINH - khung nổi bật, hiện đủ tên bệnh dài
-            st.subheader("Kết quả nhận diện")
-
-            result_text = (
-                f"### {display_name(predicted_class)}\n"
-                f"Độ tin cậy: **{confidence:.2f}%**"
+            image = ImageOps.exif_transpose(Image.open(uploaded_file)).convert("RGB")
+            preview = image.copy()
+            preview.thumbnail((520, 520))
+            st.image(
+                preview,
+                caption=f"{uploaded_file.name}\n{image.width} × {image.height} px",
+                use_container_width=True,
             )
-            if confidence >= 80:
-                st.success(result_text)
-            elif confidence >= 50:
-                st.warning(result_text + "  \nĐộ tin cậy trung bình, nên kiểm tra lại.")
-            else:
-                st.error(result_text + "  \nĐộ tin cậy thấp, kết quả không chắc chắn.")
-
-            # 7. XAC SUAT CAC LOP (sắp xếp giảm dần, top 3 in đậm)
-            st.markdown("**Xác suất các lớp**")
-
-            for rank, index in enumerate(sorted_indices, start=1):
-                probability = float(probabilities[index])
-                label = f"{display_name(class_names[index])}: {probability * 100:.2f}%"
-
-                st.progress(
-                    probability,
-                    text=f"**{rank}. {label}**" if rank <= 3 else label
-                )
-
-            st.caption(
-                "Lưu ý: Độ tin cậy là xác suất mô hình ước lượng, "
-                "không phải xác nhận chắc chắn bệnh thực tế."
-            )
-
-            with st.expander("Thông tin ảnh sau tiền xử lý"):
-                st.write("Shape:", processed_image.shape)
-                st.write("Data type:", processed_image.dtype)
-                st.write("Pixel nhỏ nhất:", processed_image.min())
-                st.write("Pixel lớn nhất:", processed_image.max())
-
+            st.caption("Ảnh đầu vào được dùng chung cho cả hai mô hình.")
         except Exception as error:
-            st.error(f"Lỗi khi dự đoán: {error}")
+            st.error(f"Không thể đọc ảnh tải lên: {error}")
+            image = None
+    else:
+        st.info("Tải ảnh lá lúa lên để bắt đầu dự đoán.")
 
+with mobilenet_col:
+    st.markdown('<div class="panel-heading">MobileNetV2</div>', unsafe_allow_html=True)
+    if image is not None:
+        show_model_result("mobilenetv2", AVAILABLE_MODELS.get("mobilenetv2"), image)
+    else:
+        st.info("Kết quả MobileNetV2 sẽ hiển thị tại đây.")
 
-else:
-    st.info(
-        "Vui lòng tải lên một ảnh lá lúa để bắt đầu nhận diện."
+with densenet_col:
+    st.markdown('<div class="panel-heading">DenseNet121</div>', unsafe_allow_html=True)
+    if image is not None:
+        show_model_result("densenet121", AVAILABLE_MODELS.get("densenet121"), image)
+    else:
+        st.info("Kết quả DenseNet121 sẽ hiển thị tại đây.")
+
+if image is not None:
+    st.divider()
+    st.subheader("Thông tin liên quan đến mô hình dự đoán")
+    info_mobilenet, info_densenet = st.columns(2, gap="large")
+    with info_mobilenet:
+        st.markdown("**MobileNetV2**")
+        cfg = AVAILABLE_MODELS.get("mobilenetv2")
+        if cfg is not None:
+            st.write("Đường dẫn mô hình:", str(cfg.FINAL_MODEL_PATH))
+            st.write("Danh sách lớp:", str(cfg.CLASS_NAMES_PATH))
+        else:
+            st.caption(MODEL_ERRORS.get("mobilenetv2", "Mô hình chưa sẵn sàng."))
+    with info_densenet:
+        st.markdown("**DenseNet121**")
+        cfg = AVAILABLE_MODELS.get("densenet121")
+        if cfg is not None:
+            st.write("Đường dẫn mô hình:", str(cfg.FINAL_MODEL_PATH))
+            st.write("Danh sách lớp:", str(cfg.CLASS_NAMES_PATH))
+        else:
+            st.caption(MODEL_ERRORS.get("densenet121", "Mô hình chưa sẵn sàng."))
+
+    st.caption(
+        "Độ tin cậy là xác suất mô hình ước lượng, không phải xác nhận chắc chắn bệnh. "
+        "Mỗi mô hình sử dụng tiền xử lý ảnh riêng theo lúc huấn luyện."
     )
 
-
 st.divider()
-
-st.caption(
-    "Rice Leaf Disease Classification | CNN - MobileNetV2"
-)
+st.caption("Rice Leaf Disease Classification | MobileNetV2 + DenseNet121 Transfer Learning")

@@ -1,0 +1,26 @@
+Test Accuracy: 98.07%
+Test Loss: 0.5084
+Macro F1: 0.9806
+MCC: 0.9769
+ROC-AUC (macro, OvR): 0.9987
+
+                       precision    recall  f1-score   support
+
+Bacterial Leaf Blight     0.9892    0.9684    0.9787        95
+           Brown Spot     0.9895    0.9792    0.9843        96
+    Healthy Rice Leaf     1.0000    1.0000    1.0000        98
+           Leaf Blast     0.9388    0.9892    0.9634        93
+           Leaf scald     0.9785    0.9681    0.9733        94
+        Sheath Blight     0.9892    0.9787    0.9840        94
+
+             accuracy                         0.9807       570
+            macro avg     0.9809    0.9806    0.9806       570
+         weighted avg     0.9811    0.9807    0.9808       570
+
+Confusion matrix (hang = thuc te, cot = du doan):
+[[92  0  0  2  0  1]
+ [ 0 94  0  1  1  0]
+ [ 0  0 98  0  0  0]
+ [ 0  1  0 92  0  0]
+ [ 0  0  0  3 91  0]
+ [ 1  0  0  0  1 92]]

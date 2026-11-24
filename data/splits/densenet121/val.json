@@ -1,0 +1,3416 @@
+[
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/20231006_165550.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7574.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_5798.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (91).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_3382.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_518.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_1294.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7846.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_8089.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/IMG_20231018_143857 - Copy.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7206.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (101).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_260.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_822.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8072.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_5938.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9361.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7913.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (146).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9516.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5148.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_633.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8703.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_5914.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_1238.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_4745.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_6040.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7509.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_79.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/Brown_spot (181).jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_1006.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_1583.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9276.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_439.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_6600.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_1603.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8528.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5114.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_4261.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_952.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_1973.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_6550.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_2324.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/IMG_20231014_170724.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_1118.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8506.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_117.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/IMG_20231018_143843 - Copy.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8483.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_3128.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_6743.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_172619.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_9828.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (116).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_7141.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (6).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_173912.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/Leaf_scald (95).jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (125).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_9508.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_1919.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_5185.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_3518.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_9367.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_914.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_854.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_5062.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_3310.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_3180.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_4767.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_2586.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/IMG_20231018_143150.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_3080.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7779.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_5428.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7291.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9683.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (86).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/Brown_spot (172).jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (84).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9185.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9884.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_7696.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/Brown_spot (129).jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_8679.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_162.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8680.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_71.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_173807.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/IMG_20231014_172907.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_9901.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_3167.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_6052.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8955.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_33.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_9016.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_5885.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_309.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (8).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_8091.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_873.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/20231006_163746.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (130).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9854.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_642.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_814.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_241.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8725.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_4833.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (104).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_4766.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_1119.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_1957.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_1203.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_7176.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (171).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_3666.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_8724.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_6980.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/Brown_spot (128).jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/Brown_spot (206).jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_170951.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_174002.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_5375.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_629.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/IMG_20231014_173342.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_3230.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7442.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7516.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_9141.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_240.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_1235.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5316.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8600.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_882.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_9678.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_244.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_8206.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (139).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_6947.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5007.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_2822.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_2921.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7400.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_2241.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8945.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_305.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8507.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (110).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_4879.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_484.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_676.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9295.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5926.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_5244.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/IMG_20231014_173718.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8498.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_1698.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9372.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7082.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_1482.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_4920.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_5507.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (119).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (141).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (177).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8063.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_342.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (114).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_7968.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_5332.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9390.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_1556.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (85).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9822.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (79).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8783.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (41).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_5318.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7388.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (26).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9569.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/IMG_20231018_143100.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_4860.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_1161.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9294.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8018.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9088.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8338.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8350.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (111).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (60).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (135).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_629.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/IMG_20231014_172050.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_3716.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9548.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_1386.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7532.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/IMG_20231018_143839 - Copy.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_589.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8238.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/IMG_20231014_172852.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7355.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_173920.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/Leaf_scald (100).jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (159).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (158).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_539.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7788.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/IMG_20231014_172133.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_1100.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/Brown_spot (131).jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_5469.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7696.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_1715.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_43.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9409.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_6317.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (57).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_6129.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_149.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8213.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_4435.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_3269.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_9537.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (121).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7464.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8907.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8230.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_8414.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8818.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/Brown_spot (147).jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (122).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_6017.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (128).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_171743.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7259.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_1430.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_496.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_172039_1.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_8169.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (80).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_682.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_2330.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9980.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_493.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_6096.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_7048.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9760.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_8035.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_6151.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8672.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_3331.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_4702.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_190.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/IMG_20231018_143840 - Copy.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9566.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_6779.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_3085.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_8441.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/Leaf_scald (91).jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_6203.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_228.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_4958.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_336.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_5536.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7282.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8696.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_3420.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_8733.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_3547.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_9991.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_4299.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/IMG_20231018_144000.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_3100.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_8041.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_5442.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_1648.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (32).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_8430.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (53).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_450.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_1933.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7544.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_6136.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (82).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_1355.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9932.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_6355.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9848.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_4531.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5386.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (151).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_6455.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/Brown_spot (166).jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7767.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7769.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_2292.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8440.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_6127.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_869.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8442.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9222.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_8542.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_1816.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (18).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/Brown_spot (215).jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_1748.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7910.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9037.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/IMG_20231014_173530.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_441.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_5530.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (116).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_370.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8140.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_173759.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_173852.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_1295.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/IMG_20231014_172514.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/IMG_20231006_170553.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_178.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/Leaf_scald (80).jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_4828.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_6567.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_223.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8465.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_173950.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9094.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9819.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/IMG_20231018_143200.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_8416.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_24.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5922.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/Leaf_scald (75).jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7833.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (118).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_4992.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_5346.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_586.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8172.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_6103.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7116.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9800.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8499.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_4746.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_4527.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_1518.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/Brown_spot (198).jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5269.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/Brown_spot (151).jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_386.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_485.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (6).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/Leaf_scald (93).jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7031.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (168).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5841.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_1583.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_9196.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_5328.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_1482.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7150.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_9803.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_171026.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_6375.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5061.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_1214.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/IMG_20231014_173142.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_6263.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_5271.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8670.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_6172.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9472.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_1859.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7891.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7553.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_9420.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_2172.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8729.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5722.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_6519.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_5050.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_8131.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_6149.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (78).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_7938.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9649.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (88).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8562.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9563.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_7210.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/IMG_20231018_143741.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_1570.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_3146.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_5416.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5528.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_188.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9662.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (35).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_8312.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231018_142908.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_3144.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_3882.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/IMG_20231014_171719.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8391.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_412.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9749.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7173.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (34).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7474.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/IMG_20231014_172953.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_1518.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_636.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (102).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_7108.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7925.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_8454.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_1964.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_2424.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5616.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_7735.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_9103.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_7979.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_6185.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_2624.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/20231006_165517(0).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_1688.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_9258.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_3107.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_479.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_6408.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_173414_1.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_1413.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_2996.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8941.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5577.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5508.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/IMG_20231014_172913.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7244.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_9873.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (110).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_168.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_5014.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_5723.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8497.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9190.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_3207.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (11).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/Brown_spot (204).jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_3533.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/IMG_20231014_172034.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5601.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_174000.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_1743.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_1254.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_243.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9981.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231018_143320.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231018_143318.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_5790.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/Brown_spot (170).jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_5636.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_3888.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_7584.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_1692.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9192.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/IMG_20231014_173723.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9492.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_7385.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_3111.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_2122.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_88.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/IMG_20231018_143751.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_1778.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_9431.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8466.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_5855.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_6926.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_1333.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/IMG_20231018_143713 - Copy.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_173800_1.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8714.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8414.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_2948.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8699.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8992.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_6549.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9504.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_1199.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_366.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_8226.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_1638.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/IMG_20231014_171720.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8257.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_1145.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_2011.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_7261.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_2990.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_6163.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9181.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (46).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_6898.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9705.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7806.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5203.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_171741.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (27).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_636.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8163.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7658.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_9839.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/IMG_20231014_173819.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_609.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_1924.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5315.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9741.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (55).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_2977.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7635.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_8846.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_3397.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7239.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_2845.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_9630.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5503.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7623.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8460.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (13).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_294.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7924.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7710.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9261.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_6198.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_3358.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_3863.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_5112.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/IMG_20231014_172841.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/Healthy_rice_leaf (8).jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7505.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/Brown_spot (210).jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_172925.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_4795.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_5696.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/Sheath_Blight (47).jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_4979.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_173411.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_7540.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_2492.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_5430.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_7962.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_709.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_292.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Sheath Blight/aug_0_9458.jpg",
+        "class_name": "Sheath Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 5
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_8342.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/20231006_165616.jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_155.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_3529.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Healthy Rice Leaf/aug_0_8245.jpg",
+        "class_name": "Healthy Rice Leaf",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 2
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/Brown_spot (139).jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_301.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_1411.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_8798.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_187.jpg",
+        "class_name": "Bacterial Leaf Blight",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 0
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Brown Spot/Brown_spot (190).jpg",
+        "class_name": "Brown Spot",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 1
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_3370.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_359.jpg",
+        "class_name": "Leaf Blast",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 3
+    },
+    {
+        "path": "data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_1964.jpg",
+        "class_name": "Leaf scald",
+        "source_folder": "Rice_Leaf_AUG",
+        "label": 4
+    }
+]

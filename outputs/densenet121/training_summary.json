@@ -1,0 +1,9 @@
+{
+  "model": "densenet121",
+  "total_params": 7043654,
+  "training_minutes": 217.7,
+  "epochs_stage1": 10,
+  "epochs_stage2": 40,
+  "val_accuracy": 0.9701230525970459,
+  "model_size_mb": 44.7
+}

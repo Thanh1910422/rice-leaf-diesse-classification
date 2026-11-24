@@ -1,0 +1,2852 @@
+[
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9683.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (34).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\20231006_165801.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_4269.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_188.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_1553.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8391.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_6567.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_5428.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_1570.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_6009.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_173417.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (159).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_394.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (118).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\20231006_163746.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_9854.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5114.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_173800_1.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_539.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_1826.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_172925.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\IMG_20231018_143752_1.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_1036.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8798.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\IMG_20231018_143020.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_8206.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7417.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_5961.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\IMG_20231014_170722.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_6127.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8444.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9504.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_174002.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_71.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_171025.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_3207.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_8312.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_1161.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9803.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\IMG_20231018_143144.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_8618.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\IMG_20231014_173257.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9276.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_3001.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8945.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_7319.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_1933.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\Brown_spot (206).jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\IMG_20231014_172654.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_878.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_2774.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_814.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5151.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\Brown_spot (141).jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_9409.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5778.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_7355.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7913.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_5938.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_9324.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_8828.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_1199.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5071.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_1411.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_244.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_8163.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7937.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8696.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\IMG_20231014_171757.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8172.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_87.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_184.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_642.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_6632.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_6005.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_507.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5887.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_2990.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_556.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9335.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_6762.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_607.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_4879.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\IMG_20231018_143843 - Copy.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_341.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_4531.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_3619.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_1586.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_5636.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_3683.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (75).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_1144.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_7108.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5503.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (130).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\IMG_20231018_143838 - Copy.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_172624.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_873.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_3875.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_5328.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9641.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_1295.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9999.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_8863.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_9190.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9904.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_1728.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\IMG_20231014_172953.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_7741.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_764.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_342.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_7268.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\Brown_spot (204).jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_5670.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\IMG_20231018_143750 - Copy.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_8044.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_8167.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_244.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_3844.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_1966.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_8414.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\IMG_20231018_143200.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_546.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_7979.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_7278.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_3622.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_576.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_7031.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_8230.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\Leaf_scald (70).jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_5885.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_3310.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_3899.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_8679.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_4800.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_301.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9820.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8698.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7509.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_1349.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8460.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (89).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_4057.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9807.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_230.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\IMG_20231014_173139.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (70).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231018_144301.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_1236.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_8714.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_434.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_8538.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_2990.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9037.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_7378.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8783.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (114).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_9649.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (99).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\Leaf_scald (57).jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_8839.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_4129.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_8041.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9353.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_8725.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (118).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_1720.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_3420.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_64.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (87).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9196.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8590.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_8421.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_9563.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (97).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_4745.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_1965.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_1238.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_4451.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9537.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_8018.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_172039_1.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_123.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_1816.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_4527.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\Brown_spot (188).jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_240.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\IMG_20231014_173543.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_171030.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_8070.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\IMG_20231006_170130.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9828.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5601.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_6185.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (128).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (110).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7553.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_609.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_7788.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9333.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5351.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_540.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_2292.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_219.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_173938.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_1638.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (91).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5208.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_2011.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (35).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_4435.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_4261.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_5790.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_7054.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\Leaf_scald (103).jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_4299.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_3100.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_7437.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_173918.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_7048.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9021.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\IMG_20231014_172852.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_386.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (77).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_172144.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_4901.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_6447.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\IMG_20231014_173243.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_6151.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\IMG_20231018_143856_1 - Copy.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (22).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_4835.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\Brown_spot (151).jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7544.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_353.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (3).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_7385.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_5480.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (44).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_5925.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_356.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_667.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_1164.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_6368.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_8528.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7973.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_171050.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (108).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_882.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_4866.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_531.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (42).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7446.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_7036.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5891.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (95).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_101.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_8094.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_305.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5269.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_3260.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_173800.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_8203.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_149.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\Brown_spot (221).jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_7514.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (146).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_1964.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\Brown_spot (128).jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_3665.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_173414_1.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (82).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_709.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_535.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_576.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (31).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_219.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_5442.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7464.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7697.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_173719.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_3382.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_7891.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8323.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_6282.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_479.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_4792.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5578.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\Leaf_scald (67).jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_7658.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_8089.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\IMG_20231018_142949.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (36).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9474.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_6355.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5577.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\Leaf_scald (83).jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_9390.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_4828.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (45).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (50).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_342.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (9).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (149).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5104.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (38).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_5567.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (116).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_493.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_170951.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\Brown_spot (196).jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_513.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_51.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (101).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (30).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_4427.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5922.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9361.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (16).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_1353.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_7.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7474.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_1859.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7014.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_223.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_5434.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8416.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8350.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_1924.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_1571.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7471.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_712.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_7141.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_6898.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_5600.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_1430.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_370.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_629.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\IMG_20231018_143742_1.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_1355.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (93).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (133).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_7735.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_207.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_9182.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\IMG_20231018_144159.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_456.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7173.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_3253.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9932.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_1556.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_7164.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9348.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (21).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5317.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_5014.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5148.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_3382.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\Brown_spot (181).jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_354.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (40).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_3146.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7623.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_4899.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_7316.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_633.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7282.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_5406.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7116.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_1235.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (88).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_187.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_6233.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_2330.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_1768.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5528.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_178.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_6987.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7379.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9906.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_3666.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_6933.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (110).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_3629.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8338.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_1688.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_439.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_8243.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_8562.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_7206.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_9826.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9103.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_6947.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8280.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_518.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_5966.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\Brown_spot (210).jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_3069.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_7589.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (34).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_3482.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (12).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_6134.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_6230.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_6303.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_5332.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7635.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\IMG_20231018_142950.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7442.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\IMG_20231014_171715.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_6436.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_85.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_1603.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (58).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7925.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_5212.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\Leaf_scald (93).jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (27).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_2713.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9780.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_3429.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_9800.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5112.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_2664.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_657.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9566.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9808.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_7806.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8720.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_9094.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_1964.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7836.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_171056.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\Leaf_scald (99).jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_636.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_8342.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\IMG_20231014_173521.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_435.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_1482.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_3085.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_8025.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7541.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8922.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8357.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_5346.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9181.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_7388.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_4795.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_4746.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_195.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_1919.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9303.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9100.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_9718.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_6743.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_1303.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_6236.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\IMG_20231018_144156.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_1006.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_117.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_6018.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_6291.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_8963.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9095.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (86).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_3564.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8483.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_1386.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_2424.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_3533.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (18).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\Brown_spot (179).jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_8035.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_412.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_5397.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8987.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_1481.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_3863.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_7779.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\IMG_20231014_172909.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8087.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_334.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_3230.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\IMG_20231014_172841.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_4048.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\Brown_spot (143).jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (141).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_85.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_3113.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_943.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_6103.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (122).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (60).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7516.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_5441.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_5244.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_8462.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_3100.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (23).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9787.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\IMG_20231014_171542.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_7239.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (102).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (23).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (37).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (59).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_7968.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (125).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_4038.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\Leaf_scald (20).jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\IMG_20231014_173718.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8497.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_570.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\20231006_165550.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9970.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (46).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_8318.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_5798.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_1936.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\Brown_spot (135).jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9185.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9569.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9839.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_9490.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\IMG_20231014_172913.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (63).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8743.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9367.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\IMG_20231014_173137.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\Healthy_rice_leaf (84).jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_173411.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9399.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_294.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5679.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5007.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_352.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_1118.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_170958.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_441.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_5430.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (5).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8992.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_1957.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_162.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_9390.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (32).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\IMG_20231014_171741.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_722.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_589.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5041.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_3888.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_8224.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_7696.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_1964.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_8109.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_2638.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Brown Spot\\aug_0_5926.jpg",
+        "label": 1,
+        "class_name": "Brown Spot"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9991.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Healthy Rice Leaf\\aug_0_8724.jpg",
+        "label": 2,
+        "class_name": "Healthy Rice Leaf"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_5701.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\Sheath_Blight (135).jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Sheath Blight\\aug_0_9678.jpg",
+        "label": 5,
+        "class_name": "Sheath Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_366.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_2993.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_872.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\aug_0_6149.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Bacterial Leaf Blight\\IMG_20231014_173143.jpg",
+        "label": 0,
+        "class_name": "Bacterial Leaf Blight"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf scald\\aug_0_6205.jpg",
+        "label": 4,
+        "class_name": "Leaf scald"
+    },
+    {
+        "path": "C:\\Users\\HATHANH\\Documents\\ThanhThanh\\Rice_Leaf_Disease_Classification\\data\\raw\\Rice_Leaf_AUG\\Leaf Blast\\aug_0_8213.jpg",
+        "label": 3,
+        "class_name": "Leaf Blast"
+    }
+]

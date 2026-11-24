@@ -1,0 +1,17 @@
+KET QUA DANH GIA MO HINH CNN
+
+Test Loss: 0.2282
+Test Accuracy: 92.46%
+
+                       precision    recall  f1-score   support
+
+Bacterial Leaf Blight       0.86      0.93      0.89        96
+           Brown Spot       0.98      0.87      0.92        95
+    Healthy Rice Leaf       0.96      0.99      0.97        98
+           Leaf Blast       0.85      0.88      0.87        93
+           Leaf scald       0.97      0.93      0.95        94
+        Sheath Blight       0.95      0.95      0.95        94
+
+             accuracy                           0.92       570
+            macro avg       0.93      0.92      0.92       570
+         weighted avg       0.93      0.92      0.92       570

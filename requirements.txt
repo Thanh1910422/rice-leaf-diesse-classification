@@ -1,6 +1,5 @@
-tensorflow
+tensorflow>=2.16
 numpy
 pillow
-matplotlib
 scikit-learn
-seabornSS
+matplotlib
