@@ -1,9 +1,3 @@
-"""
-Đọc manifest (data/splits/*.json) -> tf.data.Dataset cho train/val/test.
-Ưu tiên đọc ảnh 224x224 trong data/processed (nhanh); nếu chưa có thì
-đọc ảnh gốc trong data/raw (kết quả như nhau).
-"""
-
 import json
 from pathlib import Path
 

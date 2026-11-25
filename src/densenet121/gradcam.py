@@ -1,13 +1,3 @@
-"""
-Grad-CAM: tô màu vùng ảnh mà DenseNet121 dựa vào để ra quyết định.
-Màu đỏ = vùng ảnh hưởng mạnh. Mô hình tốt phải "nhìn" vào vết bệnh,
-không phải nền ruộng / bầu trời / tay người cầm lá.
-
-    python -m src.densenet121.gradcam                  # 3 ảnh test mỗi lớp -> outputs/gradcam/test_samples.png
-    python -m src.densenet121.gradcam duong/dan/anh.jpg
-    python -m src.densenet121.gradcam duong/dan/thu_muc
-"""
-
 import random
 import sys
 from pathlib import Path

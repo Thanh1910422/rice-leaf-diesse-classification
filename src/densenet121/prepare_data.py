@@ -1,16 +1,3 @@
-"""
-Chuẩn bị và chia bộ dữ liệu bệnh lá lúa cho DenseNet121.
-
-  1. Quét ảnh (tên lớp = thư mục trực tiếp chứa ảnh)
-  2. Loại ảnh trùng theo mã dHash 256 bit
-  3. Chia train/val/test 70/15/15 (stratify theo lớp)
-  4. Lưu manifest JSON và tạo ảnh 224x224 trong data/processed/
-
-Cách dùng:
-    python -m src.densenet121.prepare_data               # làm tất cả các bước
-    python -m src.densenet121.prepare_data --processed   # chỉ tạo lại data/processed
-"""
-
 import json
 import sys
 from collections import defaultdict

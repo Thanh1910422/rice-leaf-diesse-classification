@@ -1,26 +1,4 @@
-"""
-CẤU HÌNH RIÊNG CỦA MÔ HÌNH DenseNet121 - huấn luyện 1 PHA.
-Dữ liệu: Rice_Leaf_AUG - 6 lớp (Bacterial Leaf Blight, Brown Spot, Healthy,
-         Leaf Blast, Leaf scald, Sheath Blight). Ảnh aug_* xử lý như ảnh thường.
-
-Thư mục của mô hình này:
-  data/processed/densenet121/, data/splits/densenet121/
-  models/densenet121/, outputs/densenet121/
-Ảnh gốc DÙNG CHUNG với MobileNetV2: data/raw/Rice_Leaf_AUG/
-
-Tham số GIỐNG HỆT src/mobilenetv2/config.py (để so sánh công bằng), trừ những
-điểm bắt buộc khác theo mạng nền - đánh dấu [KHAC MOBILENETV2]:
-  - Batch size 16 (DenseNet121 tốn RAM hơn nhiều)
-  - Huấn luyện 1 pha: toàn bộ DenseNet121 học ngay từ epoch đầu
-  - Chuẩn hoá pixel theo ImageNet mean/std (trong model.py)
-"""
-
 from pathlib import Path
-
-# ---------------------------------------------------------------------------
-# Đường dẫn
-# ---------------------------------------------------------------------------
-# src/densenet121/config.py -> thư mục dự án
 ROOT_DIR = Path(__file__).resolve().parent.parent.parent
 
 MODEL_NAME = "densenet121"
@@ -80,7 +58,7 @@ BATCH_SIZE = 16  # [KHAC MOBILENETV2: 32] DenseNet121 tốn RAM hơn nhiều khi
 # Huấn luyện 1 PHA: khởi tạo từ trọng số ImageNet, KHÔNG đóng băng lớp nào
 # -> toàn bộ DenseNet121 + lớp phân loại học cùng lúc ngay từ epoch đầu.
 # LR nhỏ để không phá trọng số ImageNet; ReduceLROnPlateau tự giảm dần.
-EPOCHS = 50
+EPOCHS = 30
 LEARNING_RATE = 1e-4
 
 DROPOUT_RATE = 0.3

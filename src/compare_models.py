@@ -1,27 +1,3 @@
-"""
-So sánh MobileNetV2 và DenseNet121 trên CÙNG bộ dữ liệu, CÙNG tập test.
-
-Chạy SAU KHI đã chuẩn bị dữ liệu, train và evaluate cả 2 mô hình:
-    python -m src.mobilenetv2.prepare_data
-    python -m src.densenet121.prepare_data
-    python -m src.mobilenetv2.train
-    python -m src.mobilenetv2.evaluate
-    python -m src.densenet121.train
-    python -m src.densenet121.evaluate
-    python -m src.compare_models
-
-Hai mô hình có thư mục, cấu hình và xử lý dữ liệu RIÊNG (src/mobilenetv2/,
-src/densenet121/). File này chỉ ĐỌC kết quả của chúng, kiểm tra 2 mô hình có
-cùng danh sách lớp và CÙNG tập test, rồi so sánh.
-
-Kết quả trong outputs/comparison/:
-    comparison_report.md     báo cáo tiếng Việt (bảng + kiểm định), dán vào báo cáo
-    comparison_table.csv     bảng chỉ số (mở bằng Excel)
-    per_class_f1.png         F1 từng lớp của 2 mô hình
-    val_accuracy_curves.png  val accuracy theo epoch
-    confusion_matrices.png   2 confusion matrix cạnh nhau
-"""
-
 import csv
 import json
 import math

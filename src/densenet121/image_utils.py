@@ -1,8 +1,3 @@
-"""
-Hàm xử lý ảnh dùng chung cho prepare_data, data_loader, predict.
-Không import TensorFlow -> prepare_data chạy được mà không cần TF.
-"""
-
 from pathlib import Path
 
 import numpy as np

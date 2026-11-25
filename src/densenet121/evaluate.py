@@ -1,9 +1,3 @@
-"""
-Đánh giá mô hình trên tập TEST (ảnh mô hình chưa từng thấy).
-
-    python -m src.densenet121.evaluate
-"""
-
 import json
 import time
 

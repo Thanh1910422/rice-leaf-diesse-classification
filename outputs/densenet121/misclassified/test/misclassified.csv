@@ -1,0 +1,12 @@
+﻿anh,nhan_that,du_doan,tin_cay_du_doan_%,xac_suat_nhan_that_%
+data/raw/Rice_Leaf_AUG/Brown Spot/IMG_20231014_173237.jpg,Brown Spot,Leaf Blast,85.6,7.7
+data/raw/Rice_Leaf_AUG/Leaf scald/Leaf_scald (60).jpg,Leaf scald,Leaf Blast,81.4,13.3
+data/raw/Rice_Leaf_AUG/Leaf Blast/aug_0_9906.jpg,Leaf Blast,Brown Spot,76.7,18.1
+data/raw/Rice_Leaf_AUG/Brown Spot/aug_0_7578.jpg,Brown Spot,Leaf scald,64.8,20.6
+data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_5418.jpg,Leaf scald,Leaf Blast,62.3,26.4
+data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_173719.jpg,Sheath Blight,Bacterial Leaf Blight,48.2,1.8
+data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_1144.jpg,Bacterial Leaf Blight,Leaf Blast,46.9,41.6
+data/raw/Rice_Leaf_AUG/Leaf scald/aug_0_3883.jpg,Leaf scald,Leaf Blast,45.7,42.4
+data/raw/Rice_Leaf_AUG/Sheath Blight/IMG_20231014_172942.jpg,Sheath Blight,Leaf scald,41.3,37.9
+data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/aug_0_4451.jpg,Bacterial Leaf Blight,Sheath Blight,40.3,34.3
+data/raw/Rice_Leaf_AUG/Bacterial Leaf Blight/IMG_20231014_173257.jpg,Bacterial Leaf Blight,Leaf Blast,33.5,29.1

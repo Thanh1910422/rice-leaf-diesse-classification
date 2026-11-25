@@ -1,10 +1,3 @@
-"""
-Dự đoán bệnh cho một ảnh hoặc cả thư mục ảnh.
-
-    python -m src.densenet121.predict duong/dan/anh.jpg
-    python -m src.densenet121.predict duong/dan/thu_muc     (kết quả lưu outputs/reports/predictions.csv)
-"""
-
 import csv
 import sys
 from pathlib import Path

@@ -1,8 +1,4 @@
 from pathlib import Path
-
-# -------------------------------------------------
-# Đường dẫn
-# -------------------------------------------------
 ROOT_DIR = Path(__file__).resolve().parent.parent.parent
 
 MODEL_NAME = "mobilenetv2"

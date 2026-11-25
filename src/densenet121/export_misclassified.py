@@ -1,13 +1,3 @@
-"""
-Xuất các ảnh bị đoán SAI để kiểm tra bằng mắt (phát hiện ảnh gán nhãn sai).
-
-    python -m src.densenet121.export_misclassified          # tập test
-    python -m src.densenet121.export_misclassified val      # tập validation
-
-Kết quả: outputs/misclassified/<tap>/<lop_that>__thanh__<lop_du_doan>/<tin_cay>pct__<ten_anh>
-         outputs/misclassified/<tap>/misclassified.csv
-"""
-
 import csv
 import shutil
 import sys

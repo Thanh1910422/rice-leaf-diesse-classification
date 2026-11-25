@@ -1,11 +1,3 @@
-"""
-Huấn luyện DenseNet121 phân loại bệnh lá lúa - 1 PHA DUY NHẤT.
-Toàn bộ mạng (trừ BatchNorm) học cùng lúc ngay từ epoch đầu, không chia
-giai đoạn "đóng băng -> fine-tune".
-
-    python -m src.densenet121.train
-"""
-
 import json
 import time
 

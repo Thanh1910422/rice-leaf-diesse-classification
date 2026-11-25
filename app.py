@@ -29,9 +29,18 @@ def display_name(class_name):
 
 st.set_page_config(page_title="Rice Leaf Disease Classification",
                    page_icon="🌾", layout="wide")
-st.title("🌾 HỆ THỐNG PHÂN LOẠI BỆNH LÁ LÚA")
-st.markdown("Tải lên một ảnh lá lúa để xem kết quả dự đoán của "
-            "**MobileNetV2 và DenseNet121 song song**.")
+st.markdown(
+    '<div class="main-title">🌾 HỆ THỐNG DỰ ĐOÁN BỆNH TRÊN LÁ LÚA</div>',
+    unsafe_allow_html=True
+)
+
+st.markdown(
+    '<div class="main-description">'
+    'Tải lên một ảnh lá lúa để xem kết quả dự đoán của '
+    '<b>MobileNetV2 và DenseNet121 song song</b>.'
+    '</div>',
+    unsafe_allow_html=True
+)
 st.divider()
 
 AVAILABLE_MODELS = {}
@@ -138,16 +147,72 @@ if not AVAILABLE_MODELS:
 st.markdown(
     """
     <style>
-    /* Tăng nhẹ cỡ chữ toàn giao diện, vẫn giữ bố cục 3 cột gọn gàng */
+    /* Cỡ chữ chung */
     html, body, [class*="st-"], .stMarkdown, .stText, label,
     [data-testid="stCaptionContainer"] {
-        font-size: 1.05rem;
+        font-size: 1.25rem;
     }
-    .panel-heading {font-size: 1.25rem; font-weight: 700; margin-bottom: .7rem;}
-    .panel-note {color: #6b7280; font-size: .95rem;}
-    [data-testid="stFileUploader"] section {font-size: 1.02rem;}
-    [data-testid="stProgress"] p {font-size: 1rem;}
-    div[data-testid="stVerticalBlock"] > div:has(> div[data-testid="stFileUploader"]) {gap: .5rem;}
+
+    /* Tiêu đề các cột */
+    .panel-heading {
+        font-size: 1.5rem !important;
+        font-weight: 800;
+        margin-bottom: 1rem;
+    }
+
+    /* Tiêu đề chính */
+    .main-title {
+        font-size: 2rem !important;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    /* Dòng mô tả bên dưới */
+    .main-description {
+        font-size: 1.25rem !important;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Tiêu đề phụ */
+    h2 {
+        font-size: 2rem !important;
+    }
+
+    h3 {
+        font-size: 1.25rem !important;
+    }
+
+    /* Chữ trong khu vực tải ảnh */
+    [data-testid="stFileUploader"] {
+        font-size: 1.25rem;
+    }
+
+    [data-testid="stFileUploader"] section {
+        font-size: 1.25rem;
+    }
+
+    /* Chữ trong nút bấm */
+    .stButton button {
+        font-size: 1.25rem !important;
+        font-weight: 600;
+    }
+
+    /* Chữ trong thông báo kết quả */
+    [data-testid="stAlert"] {
+        font-size: 1.25rem !important;
+    }
+
+    /* Chữ trong thanh tiến trình */
+    [data-testid="stProgress"] p {
+        font-size: 1.5rem;
+    }
+
+    /* Giữ khoảng cách khu vực tải ảnh gọn */
+    div[data-testid="stVerticalBlock"] > div:has(> div[data-testid="stFileUploader"]) {
+        gap: 0.5rem;
+    }
     </style>
     """,
     unsafe_allow_html=True,

@@ -1,20 +1,3 @@
-"""
-Mô hình DenseNet121 - huấn luyện 1 PHA.
-Cấu trúc GIỐNG HỆT src/mobilenetv2/model.py, chỉ thay mạng nền và chuẩn hoá pixel.
-
-Kiến trúc:
-    Ảnh 224x224x3 (pixel 0-255)
-      -> Tăng cường dữ liệu (chỉ khi train)
-      -> preprocess_input ((x/255 - mean)/std ImageNet, như lúc DenseNet121 học ImageNet)
-      -> DenseNet121 (trọng số ImageNet, bỏ lớp phân loại gốc)
-      -> GlobalAveragePooling2D -> Dropout -> Dense(6, softmax)
-
-Huấn luyện 1 pha (không chia giai đoạn):
-    Khởi tạo từ trọng số ImageNet, toàn bộ các lớp của DenseNet121 và lớp
-    phân loại mới học CÙNG LÚC ngay từ epoch đầu với LR nhỏ (LEARNING_RATE).
-    BatchNorm giữ cố định (quan trọng khi batch nhỏ và dữ liệu ít).
-"""
-
 import math
 
 import keras
@@ -26,8 +9,6 @@ from src.densenet121.config import (
     LABEL_SMOOTHING,
     LEARNING_RATE,
 )
-
-
 
 def build_augmentation():
     return keras.Sequential(
