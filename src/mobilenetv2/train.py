@@ -192,7 +192,7 @@ def main():
 
     print("\n[1] DANG DOC DU LIEU...")
 
-    train_data, val_data, test_data, class_names = load_data()
+    train_data, val_data, _, class_names = load_data()
 
     num_classes = len(class_names)
 
